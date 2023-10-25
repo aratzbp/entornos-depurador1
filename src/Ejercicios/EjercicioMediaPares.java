@@ -13,8 +13,8 @@ public class EjercicioMediaPares {
         Scanner sc = new Scanner(System.in);
 
         int entrada = sc.nextInt();
-        int contador = 0;
-        int resultado;
+        float contador = 0;
+        float resultado;
         int average = 0;
 
         while(entrada!= 0) {

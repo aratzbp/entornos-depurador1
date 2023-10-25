@@ -9,9 +9,9 @@ public class EjercicioUltimoAlfabeticamente {
     
     public static void main(String args[]) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        String entrada = scanner.nextLine();
+        String entrada = sc.nextLine();
 
         String elUltimoAlfabeticamente = entrada;
 
@@ -22,7 +22,7 @@ public class EjercicioUltimoAlfabeticamente {
                 elUltimoAlfabeticamente = entrada;
             }
 
-            entrada = scanner.nextLine();
+            entrada = sc.nextLine();
         }
 
         System.out.println(elUltimoAlfabeticamente);
